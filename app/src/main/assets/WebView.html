@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <script src="Web.js"></script>
+</head>
+<style>
+input {
+  margin: 20px;
+  border: 1px solid #4CAF50;
+}
+.txtInput { width: 175px; height: 50px; border: 1px solid #999999; padding: 5px; }
+</style>
+<body>
+<div>
+    Welcome WebView!
+    <center>
+        <div id="data" style="height:100%;width:100%;background-color:#ffffcc;"></div>
+    </center>
+    <br>
+    <input class ="txtInput" type="text" placeholder="What is Your Name" id="myInput">
+    <input type="button" value="SHOW MY NAME"
+           onClick="JSPlugin.showName();"/><br/>
+    <input type="button" value="GET USERS"
+           onClick="JSPlugin.gotoMain();"/><br/>
+</div>
+</body>
+</html>
